@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# Ahead
+This is a “typeahead” widget - also sometimes called an
+“autocomplete” input.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Inspiration
+https://www.airbnb.com/ (the “where” input)
+https://sesamecare.com/ (either search input)
 
-## Available Scripts
+### Description
 
-In the project directory, you can run:
+Upon typing, the widget fuzzy-matches case-insensitively against
+the list at the end of this document and presents list items that
+contain the matched characters as suggestions
 
-### `yarn start`
+* Clicking an autocomplete suggestion fills in the input with the full text.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Using the up and down arrow keys allow the user to highlight a desired suggestion and Enter selects it. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Selecting in both cases is filling in the input
 
-### `yarn test`
+* The input is a valid HTML text input element to be used in a standard HTML form setup
+* The is able to proceed without choosing one of the suggestions (non-exclusive)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Styling
 
-### `yarn build`
+The widget match suggestions appears below the text input as a floating container.
+The floating suggestion area becomes scrollable when there are many suggestions.
+The matched portion of the suggestion is highlighted in some way
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Bonus points:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Hovering over the suggestions pre-preemptively fills in the input box, but does not commit the change permanently until a suggestion is clicked or pressed enter-upon.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+—
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Here is the default list of terms that the typeahead matches against:
+```
+Açaí, Apple, Akee, Apricot, Avocado, Banana, Bilberry, Blackberry,
+Blackcurrant, Black sapote, Blueberry, Boysenberry, Buddha's hand, Crab
+apples, Currant, Cherry, Cherimoya, Chico fruit, Cloudberry, Coconut,
+Cranberry, Cucumber, Damson, Date, Dragonfruit, Pitaya, Durian,
+Elderberry, Feijoa, Fig, Goji berry, Gooseberry, Grape, Raisin, Grapefruit,
+Guava, Honeyberry, Huckleberry, Jabuticaba, Jackfruit, Jambul,
+Japanese plum, Jostaberry, Jujube, Juniper berry, Kiwano, Kiwifruit,
+Kumquat, Lemon, Lime, Loquat, Longan, Lychee, Mango, Mangosteen,
+Marionberry, Melon, Cantaloupe, Honeydew, Watermelon, Miracle fruit,
+Mulberry, Nectarine, Nance, Olive, Orange, Blood orange, Clementine,
+Mandarine, Tangerine, Papaya, Passionfruit, Peach, Pear, Persimmon,
+Plantain, Plum, Prune, Pineapple, Pineberry, Plumcot, Pomegranate,
+Pomelo, Purple mangosteen, Quince, Raspberry, Salmonberry, Rambutan,
+Redcurrant, Salal, Salak, Satsuma, Soursop, Star apple, Star fruit,
+Strawberry, Surinam cherry, Tamarillo, Tamarind, Ugli fruit, White currant,
+White sapote, Yuzu, Avocado, Bell pepper, Chili pepper, Corn kernel,
+Cucumber, Eggplant, Olive, Pea, Pumpkin, Squash, Tomato, Zucchini
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### To run the app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the project 
+2. Install the dependencies 
+```
+yarn
+```
+3. Run storybook
+```
+yarn start
+```
+4. Open your browser at http://localhost:6006
