@@ -22,6 +22,18 @@ module.exports = {
   ],
   plugins: ["react-hooks", "@typescript-eslint/eslint-plugin"],
   rules: {
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      { required: { some: ["nesting", "id"] } },
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        required: {
+          some: ["nesting", "id"],
+        },
+      },
+    ],
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
   },
