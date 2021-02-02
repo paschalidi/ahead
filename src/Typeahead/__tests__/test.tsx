@@ -29,7 +29,7 @@ test("you should see the rendered input", () => {
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value=""
@@ -61,7 +61,7 @@ test(`you should see the suggestion you choose by clicking on the input`, () => 
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value="Açaí"
@@ -95,7 +95,7 @@ test(`after you chose a suggestion by clicking you should be able to type again 
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value="avocado"
@@ -159,7 +159,7 @@ test(`after you chose a suggestion by clicking you should be able to type again 
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value="Avocado"
@@ -188,7 +188,7 @@ test(`you should see the suggestion you choose by pressing enter on the input`, 
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value="Açaí"
@@ -219,7 +219,7 @@ test(`after you chose a suggestion by pressing enter you should be able to type 
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value="avocado"
@@ -277,7 +277,7 @@ test(`after you chose a suggestion by clicking you should be able to type again 
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value="Avocado"
@@ -317,7 +317,7 @@ test(`you should be able using the keyboard to reach the bottom of the list and 
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value="Plumcot"
@@ -365,7 +365,7 @@ test(`you should be able using the keyboard to reach the bottom _and_ then the t
     >
       <input
         aria-label="typeahead-input"
-        class="sc-bdfBwQ juMTdC"
+        class="sc-bdfBwQ dCriQH"
         placeholder="Type..."
         type="text"
         value="Japanese plum"

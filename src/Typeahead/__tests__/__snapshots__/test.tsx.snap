@@ -6,7 +6,7 @@ exports[`you should see a list of suggestions when user types apple 1`] = `
 >
   <input
     aria-label="typeahead-input"
-    class="sc-bdfBwQ juMTdC"
+    class="sc-bdfBwQ dCriQH"
     placeholder="Type..."
     type="text"
     value="apple"
@@ -95,7 +95,7 @@ exports[`you should see a list of suggestions when user types avo 1`] = `
 >
   <input
     aria-label="typeahead-input"
-    class="sc-bdfBwQ juMTdC"
+    class="sc-bdfBwQ dCriQH"
     placeholder="Type..."
     type="text"
     value="avo"
@@ -133,7 +133,7 @@ exports[`you should see a list of suggestions when user types aç 1`] = `
 >
   <input
     aria-label="typeahead-input"
-    class="sc-bdfBwQ juMTdC"
+    class="sc-bdfBwQ dCriQH"
     placeholder="Type..."
     type="text"
     value="aç"
@@ -171,7 +171,7 @@ exports[`you should see a list of suggestions when user types cherr 1`] = `
 >
   <input
     aria-label="typeahead-input"
-    class="sc-bdfBwQ juMTdC"
+    class="sc-bdfBwQ dCriQH"
     placeholder="Type..."
     type="text"
     value="cherr"
@@ -228,7 +228,7 @@ exports[`you should see a list of suggestions when user types plum 1`] = `
 >
   <input
     aria-label="typeahead-input"
-    class="sc-bdfBwQ juMTdC"
+    class="sc-bdfBwQ dCriQH"
     placeholder="Type..."
     type="text"
     value="plum"
