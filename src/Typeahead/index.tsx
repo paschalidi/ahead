@@ -124,6 +124,7 @@ export function Typeahead({
   return (
     <>
       <StyledInput
+        aria-label="typeahead-input"
         onChange={onInputChange}
         onKeyDown={onInputKeyDown}
         placeholder={placeholder}
