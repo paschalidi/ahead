@@ -10,9 +10,6 @@ interface TypeaheadProps {
   suggestions?: Suggestions;
   placeholder?: string;
   disabled?: boolean;
-  // todo add styles
-  // styles?: object;
-  // className?: string;
 }
 
 const useFilteredSuggestions = (
@@ -60,12 +57,12 @@ const MarkedSuggestions = ({
     return <span>{item}</span>;
   };
 
-  return <>{userInputInPieces.map(deriveMarkedSuggestions)}</>;
+  return (
+    <div key={uuidv4()}>{userInputInPieces.map(deriveMarkedSuggestions)}</div>
+  );
 };
 
 export function Typeahead({
-  // className = "",
-  // styles = {},
   placeholder = "Type...",
   disabled = false,
   suggestions = defaultSuggestions,
@@ -136,7 +133,7 @@ export function Typeahead({
       />
 
       {displayList && filtered.length ? (
-        <StyledList ref={listReference}>
+        <StyledList data-testid="suggestions-list" ref={listReference}>
           {filtered.map((suggestion, index) => (
             <li key={uuidv4()}>
               <TransparentButton
