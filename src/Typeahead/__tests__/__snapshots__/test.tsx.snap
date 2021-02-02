@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should render input 1`] = `
+<input
+  aria-label="typeahead-input"
+  class="sc-bdfBwQ juMTdC"
+  placeholder="Type..."
+  type="text"
+  value=""
+/>
+`;
+
 exports[`should show list when there is user input 1`] = `
 <input
   aria-label="typeahead-input"
