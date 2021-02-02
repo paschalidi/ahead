@@ -15,8 +15,6 @@ const setup = () => {
   };
 };
 
-const userInputCases = ["cherr", "plum", "avo", "apple", "aç"];
-
 test("you should see the rendered input", () => {
   // given
   const { typeahead } = setup();
@@ -325,6 +323,7 @@ test(`you should be able using the keyboard to reach the bottom of the list and 
     </div>
   `);
 });
+
 test(`you should be able using the keyboard to reach the bottom _and_ then the top of the list and chose a suggestion`, () => {
   // given
   const { inputElement, typeahead } = setup();
@@ -372,6 +371,7 @@ test(`you should be able using the keyboard to reach the bottom _and_ then the t
     </div>
   `);
 });
+
 test(`you should be able to search using the fuzzy search`, () => {
   // given
   const { inputElement, getByTestId } = setup();
@@ -382,17 +382,19 @@ test(`you should be able to search using the fuzzy search`, () => {
   expect(getByTestId("suggestions-list")).toHaveTextContent("Buddha's hand");
 });
 
-// userInputCases.forEach((userInput) =>
-//   test(`you should see a list of suggestions when user types ${userInput}`, () => {
-//     // given
-//     const { inputElement, typeahead, getByTestId } = setup();
-//
-//     // when
-//     fireEvent.change(inputElement, { target: { value: userInput } });
-//
-//     // then
-//     const listElement = getByTestId("suggestions-list");
-//     expect(typeahead).toMatchSnapshot();
-//     expect(listElement).toBeInTheDocument();
-//   })
-// );
+const userInputCases = ["cherr", "plum", "avo", "apple", "aç"];
+
+userInputCases.forEach((userInput) =>
+  test(`you should see a list of suggestions when user types ${userInput}`, () => {
+    // given
+    const { inputElement, typeahead, getByTestId } = setup();
+
+    // when
+    fireEvent.change(inputElement, { target: { value: userInput } });
+
+    // then
+    const listElement = getByTestId("suggestions-list");
+    expect(typeahead).toMatchSnapshot();
+    expect(listElement).toBeInTheDocument();
+  })
+);

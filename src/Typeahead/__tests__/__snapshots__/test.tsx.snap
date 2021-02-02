@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`you should see a list of suggestions when user types apple 1`] = `
+<div
+  data-testid="typeahead"
+>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="apple"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        aria-label="Apple"
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
+        <span>
+          
+          <span
+            class="coloredText"
+          >
+            Apple
+          </span>
+        </span>
+        <span />
+      </button>
+    </li>
+    <li>
+      <button
+        aria-label="Crab apples"
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
+        <span>
+          Crab 
+          <span
+            class="coloredText"
+          >
+            apple
+          </span>
+        </span>
+        <span>
+          s
+        </span>
+      </button>
+    </li>
+    <li>
+      <button
+        aria-label="Pineapple"
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
+        <span>
+          Pine
+          <span
+            class="coloredText"
+          >
+            apple
+          </span>
+        </span>
+        <span />
+      </button>
+    </li>
+    <li>
+      <button
+        aria-label="Star apple"
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
+        <span>
+          Star 
+          <span
+            class="coloredText"
+          >
+            apple
+          </span>
+        </span>
+        <span />
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`you should see a list of suggestions when user types avo 1`] = `
+<div
+  data-testid="typeahead"
+>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="avo"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        aria-label="Avocado"
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
+        <span>
+          
+          <span
+            class="coloredText"
+          >
+            Avo
+          </span>
+        </span>
+        <span>
+          cado
+        </span>
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`you should see a list of suggestions when user types aç 1`] = `
+<div
+  data-testid="typeahead"
+>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="aç"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        aria-label="Açaí"
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
+        <span>
+          
+          <span
+            class="coloredText"
+          >
+            Aç
+          </span>
+        </span>
+        <span>
+          aí
+        </span>
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`you should see a list of suggestions when user types cherr 1`] = `
+<div
+  data-testid="typeahead"
+>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="cherr"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        aria-label="Cherry"
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
+        <span>
+          
+          <span
+            class="coloredText"
+          >
+            Cherr
+          </span>
+        </span>
+        <span>
+          y
+        </span>
+      </button>
+    </li>
+    <li>
+      <button
+        aria-label="Surinam cherry"
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
+        <span>
+          Surinam 
+          <span
+            class="coloredText"
+          >
+            cherr
+          </span>
+        </span>
+        <span>
+          y
+        </span>
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`you should see a list of suggestions when user types plum 1`] = `
+<div
+  data-testid="typeahead"
+>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="plum"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        aria-label="Japanese plum"
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
+        <span>
+          Japanese 
+          <span
+            class="coloredText"
+          >
+            plum
+          </span>
+        </span>
+        <span />
+      </button>
+    </li>
+    <li>
+      <button
+        aria-label="Plum"
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
+        <span>
+          
+          <span
+            class="coloredText"
+          >
+            Plum
+          </span>
+        </span>
+        <span />
+      </button>
+    </li>
+    <li>
+      <button
+        aria-label="Plumcot"
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
+        <span>
+          
+          <span
+            class="coloredText"
+          >
+            Plum
+          </span>
+        </span>
+        <span>
+          cot
+        </span>
+      </button>
+    </li>
+  </ul>
+</div>
+`;
