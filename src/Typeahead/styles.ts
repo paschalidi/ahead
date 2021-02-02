@@ -12,6 +12,10 @@ export const StyledInput = styled.input`
   border-radius: 0;
   transition: border-color 0.2s ease;
 
+  &:disabled {
+    cursor: not-allowed;
+  }
+
   &:focus {
     border: 1px solid ${colors.active};
   }
