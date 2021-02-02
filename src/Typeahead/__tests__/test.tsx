@@ -6,7 +6,9 @@ import { Typeahead } from "../index";
 const setup = () => {
   const utils = render(<Typeahead />);
   const typeahead = utils.getByTestId("typeahead");
-  const inputElement = utils.getByLabelText("typeahead-input");
+  const inputElement = utils.getByLabelText(
+    "typeahead-input"
+  ) as HTMLInputElement;
 
   return {
     typeahead,
