@@ -93,7 +93,7 @@ export function Typeahead({
   const onInputKeyDown = (e: { keyCode: number }) => {
     const scrollActiveElementIntoView = (block: "end" | "start") => {
       const { current } = listReference;
-      if (current && current.children[activeSuggestionIndex]) {
+      if (current && current.children[activeSuggestionIndex].scrollIntoView) {
         current.children[activeSuggestionIndex].scrollIntoView({ block });
       }
     };
