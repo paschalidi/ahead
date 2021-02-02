@@ -1,1984 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render input 1`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value=""
-/>
-`;
-
-exports[`should show list when there is user input 1`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="plu"
-/>
-`;
-
-exports[`should show list when there is user input 2`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
->
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
-        <span>
-          Japanese 
-          <span
-            class="coloredText"
-          >
-            plu
-          </span>
-        </span>
-        <span>
-          m
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            Plu
-          </span>
-        </span>
-        <span>
-          m
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            Plu
-          </span>
-        </span>
-        <span>
-          mcot
-        </span>
-      </div>
-    </button>
-  </li>
-</ul>
-`;
-
-exports[`should show list when there is user input 3`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="plum"
-/>
-`;
-
-exports[`should show list when there is user input 4`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
->
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
-        <span>
-          Japanese 
-          <span
-            class="coloredText"
-          >
-            plum
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            Plum
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            Plum
-          </span>
-        </span>
-        <span>
-          cot
-        </span>
-      </div>
-    </button>
-  </li>
-</ul>
-`;
-
-exports[`should show list when there is user input 5`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="avo"
-/>
-`;
-
-exports[`should show list when there is user input 6`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
->
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            Avo
-          </span>
-        </span>
-        <span>
-          cado
-        </span>
-      </div>
-    </button>
-  </li>
-</ul>
-`;
-
-exports[`should show list when there is user input 7`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="app"
-/>
-`;
-
-exports[`should show list when there is user input 8`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
->
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            App
-          </span>
-        </span>
-        <span>
-          le
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Crab 
-          <span
-            class="coloredText"
-          >
-            app
-          </span>
-        </span>
-        <span>
-          les
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Japanese plum
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Pine
-          <span
-            class="coloredText"
-          >
-            app
-          </span>
-        </span>
-        <span>
-          le
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Star 
-          <span
-            class="coloredText"
-          >
-            app
-          </span>
-        </span>
-        <span>
-          le
-        </span>
-      </div>
-    </button>
-  </li>
-</ul>
-`;
-
-exports[`should show list when there is user input 9`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="a"
-/>
-`;
-
-exports[`should show list when there is user input 10`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
->
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            A
-          </span>
-        </span>
-        <span>
-          ç
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          í
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            A
-          </span>
-        </span>
-        <span>
-          pple
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            A
-          </span>
-        </span>
-        <span>
-          kee
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            A
-          </span>
-        </span>
-        <span>
-          pricot
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          
-          <span
-            class="coloredText"
-          >
-            A
-          </span>
-        </span>
-        <span>
-          voc
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          do
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          B
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          n
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          n
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Bl
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ckberry
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Bl
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ckcurr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nt
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Bl
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ck s
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          pote
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Buddh
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          's h
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nd
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Cr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          b 
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          pples
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Curr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nt
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Cherimoy
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Cr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nberry
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          D
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          mson
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          D
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          te
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Dr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          gonfruit
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Pit
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          y
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Duri
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          n
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Feijo
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Gr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          pe
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          R
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          isin
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Gr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          pefruit
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Gu
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          v
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          J
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          butic
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          b
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          J
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ckfruit
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          J
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          mbul
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          J
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          p
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nese plum
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Jost
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          berry
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Kiw
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          no
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Kumqu
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          t
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Loqu
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          t
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Long
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          n
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          M
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ngo
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          M
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ngosteen
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          M
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          rionberry
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          C
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nt
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          loupe
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          W
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          termelon
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Mir
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          cle fruit
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Nect
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          rine
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          N
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nce
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Or
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nge
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Blood or
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nge
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          M
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nd
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          rine
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          T
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ngerine
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          P
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          p
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          y
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          P
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ssionfruit
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Pe
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ch
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Pe
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          r
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Pl
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nt
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          in
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Pine
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          pple
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Pomegr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          n
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          te
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Purple m
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          ngosteen
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          R
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          spberry
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          S
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          lmonberry
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          R
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          mbut
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          n
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Redcurr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nt
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          S
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          l
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          l
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          S
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          l
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          k
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          S
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          tsum
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          St
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          r 
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          pple
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          St
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          r fruit
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Str
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          wberry
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Surin
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          m cherry
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          T
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          m
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          rillo
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          T
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          m
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          rind
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          White curr
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nt
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          White s
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          pote
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Eggpl
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          nt
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Pe
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Squ
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          sh
-        </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
-        <span>
-          Tom
-          <span
-            class="coloredText"
-          >
-            a
-          </span>
-        </span>
-        <span>
-          to
-        </span>
-      </div>
-    </button>
-  </li>
-</ul>
-`;
-
 exports[`should show the list when there types a 1`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="a"
-/>
-`;
-
-exports[`should show the list when there types a 2`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
+<div
+  data-testid="typeahead"
 >
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="a"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
         <span>
           
           <span
@@ -1998,15 +39,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           í
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           
           <span
@@ -2018,15 +57,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pple
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           
           <span
@@ -2038,15 +75,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           kee
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           
           <span
@@ -2058,15 +93,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pricot
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           
           <span
@@ -2086,15 +119,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           do
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           B
           <span
@@ -2120,15 +151,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Bl
           <span
@@ -2140,15 +169,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           ckberry
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Bl
           <span
@@ -2168,15 +195,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nt
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Bl
           <span
@@ -2196,15 +221,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pote
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Buddh
           <span
@@ -2224,15 +247,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nd
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Cr
           <span
@@ -2252,15 +273,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pples
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Curr
           <span
@@ -2272,15 +291,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nt
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Cherimoy
           <span
@@ -2290,15 +307,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Cr
           <span
@@ -2310,15 +325,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nberry
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           D
           <span
@@ -2330,15 +343,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           mson
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           D
           <span
@@ -2350,15 +361,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           te
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Dr
           <span
@@ -2370,15 +379,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           gonfruit
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Pit
           <span
@@ -2396,15 +403,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Duri
           <span
@@ -2416,15 +421,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           n
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Feijo
           <span
@@ -2434,15 +437,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Gr
           <span
@@ -2454,15 +455,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pe
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           R
           <span
@@ -2474,15 +473,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           isin
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Gr
           <span
@@ -2494,15 +491,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pefruit
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Gu
           <span
@@ -2520,15 +515,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           J
           <span
@@ -2554,15 +547,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           J
           <span
@@ -2574,15 +565,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           ckfruit
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           J
           <span
@@ -2594,15 +583,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           mbul
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           J
           <span
@@ -2622,15 +609,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nese plum
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Jost
           <span
@@ -2642,15 +627,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           berry
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Kiw
           <span
@@ -2662,15 +645,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           no
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Kumqu
           <span
@@ -2682,15 +663,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           t
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Loqu
           <span
@@ -2702,15 +681,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           t
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Long
           <span
@@ -2722,15 +699,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           n
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           M
           <span
@@ -2742,15 +717,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           ngo
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           M
           <span
@@ -2762,15 +735,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           ngosteen
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           M
           <span
@@ -2782,15 +753,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           rionberry
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           C
           <span
@@ -2810,15 +779,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           loupe
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           W
           <span
@@ -2830,15 +797,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           termelon
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Mir
           <span
@@ -2850,15 +815,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           cle fruit
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Nect
           <span
@@ -2870,15 +833,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           rine
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           N
           <span
@@ -2890,15 +851,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nce
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Or
           <span
@@ -2910,15 +869,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nge
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Blood or
           <span
@@ -2930,15 +887,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nge
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           M
           <span
@@ -2958,15 +913,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           rine
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           T
           <span
@@ -2978,15 +931,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           ngerine
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           P
           <span
@@ -3012,15 +963,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           P
           <span
@@ -3032,15 +981,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           ssionfruit
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Pe
           <span
@@ -3052,15 +999,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           ch
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Pe
           <span
@@ -3072,15 +1017,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           r
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Pl
           <span
@@ -3100,15 +1043,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           in
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Pine
           <span
@@ -3120,15 +1061,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pple
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Pomegr
           <span
@@ -3148,15 +1087,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           te
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Purple m
           <span
@@ -3168,15 +1105,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           ngosteen
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           R
           <span
@@ -3188,15 +1123,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           spberry
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           S
           <span
@@ -3208,15 +1141,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           lmonberry
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           R
           <span
@@ -3236,15 +1167,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           n
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Redcurr
           <span
@@ -3256,15 +1185,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nt
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           S
           <span
@@ -3284,15 +1211,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           l
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           S
           <span
@@ -3312,15 +1237,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           k
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           S
           <span
@@ -3338,15 +1261,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           St
           <span
@@ -3366,15 +1287,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pple
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           St
           <span
@@ -3386,15 +1305,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           r fruit
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Str
           <span
@@ -3406,15 +1323,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           wberry
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Surin
           <span
@@ -3426,15 +1341,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           m cherry
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           T
           <span
@@ -3454,15 +1367,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           rillo
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           T
           <span
@@ -3482,15 +1393,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           rind
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           White curr
           <span
@@ -3502,15 +1411,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nt
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           White s
           <span
@@ -3522,15 +1429,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           pote
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Eggpl
           <span
@@ -3542,15 +1447,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           nt
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Pe
           <span
@@ -3560,15 +1463,13 @@ exports[`should show the list when there types a 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Squ
           <span
@@ -3580,15 +1481,13 @@ exports[`should show the list when there types a 2`] = `
         <span>
           sh
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Tom
           <span
@@ -3600,33 +1499,32 @@ exports[`should show the list when there types a 2`] = `
         <span>
           to
         </span>
-      </div>
-    </button>
-  </li>
-</ul>
+      </button>
+    </li>
+  </ul>
+</div>
 `;
 
 exports[`should show the list when there types app 1`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="app"
-/>
-`;
-
-exports[`should show the list when there types app 2`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
+<div
+  data-testid="typeahead"
 >
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="app"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
         <span>
           
           <span
@@ -3638,15 +1536,13 @@ exports[`should show the list when there types app 2`] = `
         <span>
           le
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Crab 
           <span
@@ -3658,27 +1554,23 @@ exports[`should show the list when there types app 2`] = `
         <span>
           les
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Japanese plum
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Pine
           <span
@@ -3690,15 +1582,13 @@ exports[`should show the list when there types app 2`] = `
         <span>
           le
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           Star 
           <span
@@ -3710,33 +1600,32 @@ exports[`should show the list when there types app 2`] = `
         <span>
           le
         </span>
-      </div>
-    </button>
-  </li>
-</ul>
+      </button>
+    </li>
+  </ul>
+</div>
 `;
 
 exports[`should show the list when there types avo 1`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="avo"
-/>
-`;
-
-exports[`should show the list when there types avo 2`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
+<div
+  data-testid="typeahead"
 >
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="avo"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
         <span>
           
           <span
@@ -3748,33 +1637,32 @@ exports[`should show the list when there types avo 2`] = `
         <span>
           cado
         </span>
-      </div>
-    </button>
-  </li>
-</ul>
+      </button>
+    </li>
+  </ul>
+</div>
 `;
 
 exports[`should show the list when there types plu 1`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="plu"
-/>
-`;
-
-exports[`should show the list when there types plu 2`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
+<div
+  data-testid="typeahead"
 >
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="plu"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
         <span>
           Japanese 
           <span
@@ -3786,15 +1674,13 @@ exports[`should show the list when there types plu 2`] = `
         <span>
           m
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           
           <span
@@ -3806,15 +1692,13 @@ exports[`should show the list when there types plu 2`] = `
         <span>
           m
         </span>
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           
           <span
@@ -3826,33 +1710,32 @@ exports[`should show the list when there types plu 2`] = `
         <span>
           mcot
         </span>
-      </div>
-    </button>
-  </li>
-</ul>
+      </button>
+    </li>
+  </ul>
+</div>
 `;
 
 exports[`should show the list when there types plum 1`] = `
-<input
-  aria-label="typeahead-input"
-  class="sc-bdfBwQ juMTdC"
-  placeholder="Type..."
-  type="text"
-  value="plum"
-/>
-`;
-
-exports[`should show the list when there types plum 2`] = `
-<ul
-  class="sc-gsTCUz MsIIl"
-  data-testid="suggestions-list"
+<div
+  data-testid="typeahead"
 >
-  <li>
-    <button
-      class="sc-dlfnbm cHfzSk"
-      type="button"
-    >
-      <div>
+  <input
+    aria-label="typeahead-input"
+    class="sc-bdfBwQ juMTdC"
+    placeholder="Type..."
+    type="text"
+    value="plum"
+  />
+  <ul
+    class="sc-gsTCUz MsIIl"
+    data-testid="suggestions-list"
+  >
+    <li>
+      <button
+        class="sc-dlfnbm cHfzSk"
+        type="button"
+      >
         <span>
           Japanese 
           <span
@@ -3862,15 +1745,13 @@ exports[`should show the list when there types plum 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           
           <span
@@ -3880,15 +1761,13 @@ exports[`should show the list when there types plum 2`] = `
           </span>
         </span>
         <span />
-      </div>
-    </button>
-  </li>
-  <li>
-    <button
-      class="sc-dlfnbm eUEKhV"
-      type="button"
-    >
-      <div>
+      </button>
+    </li>
+    <li>
+      <button
+        class="sc-dlfnbm eUEKhV"
+        type="button"
+      >
         <span>
           
           <span
@@ -3900,8 +1779,8 @@ exports[`should show the list when there types plum 2`] = `
         <span>
           cot
         </span>
-      </div>
-    </button>
-  </li>
-</ul>
+      </button>
+    </li>
+  </ul>
+</div>
 `;
