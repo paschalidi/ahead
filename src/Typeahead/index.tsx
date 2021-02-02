@@ -39,7 +39,6 @@ export function Typeahead({
   };
 
   const onKeyDown = (e: { currentTarget: any; keyCode: number }) => {
-    debugger;
     // 13 is enter
     if (e.keyCode === 13) {
       setSelected(selectedSuggestion);
