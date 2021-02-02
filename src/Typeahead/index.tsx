@@ -1,5 +1,6 @@
 import React, { useMemo, useRef, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
+import fuzzysearch from "fuzzysearch";
 import { defaultSuggestions } from "./constants";
 import { StyledInput, StyledList, TransparentButton } from "./styles";
 
@@ -28,8 +29,9 @@ const useFilteredSuggestions = (
         // https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
         .filter((value, index, self) => self.indexOf(value) === index)
         .filter(
-          (word) =>
-            userInput && word.toLowerCase().includes(userInput.toLowerCase())
+          (suggestion) =>
+            userInput &&
+            fuzzysearch(userInput.toLowerCase(), suggestion.toLowerCase())
         ),
     [suggestions, userInput]
   );

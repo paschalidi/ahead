@@ -50,6 +50,7 @@ module.exports = {
       },
     },
   },
+  ignorePatterns: ["types/**/*"],
   overrides: [
     {
       files: ["*.ts", "*.tsx"],
