@@ -25,6 +25,10 @@ export const StyledList = styled.ul`
   padding: 0;
   max-height: 120px;
   width: calc(${width}px + 1rem);
+
+  .coloredText {
+    color: ${colors.active};
+  }
 `;
 
 export const TransparentButton = styled.button<{ isSelected: boolean }>`

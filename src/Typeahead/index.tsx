@@ -35,6 +35,35 @@ const useFilteredSuggestions = (
   );
 };
 
+const MarkedSuggestions = ({
+  suggestion,
+  userInput,
+}: {
+  suggestion: string;
+  userInput: string;
+}) => {
+  const regex = new RegExp(userInput, "gi");
+  const originalMatch = suggestion.match(regex);
+  const userInputInPieces = suggestion.split(regex);
+
+  const deriveMarkedSuggestions = (item: string, index: number) => {
+    const lastItem = index === userInputInPieces.length - 1;
+    if (!lastItem) {
+      return (
+        <span>
+          {item}
+          <span className="coloredText">
+            {originalMatch && originalMatch[index]}
+          </span>
+        </span>
+      );
+    }
+    return <span>{item}</span>;
+  };
+
+  return <>{userInputInPieces.map(deriveMarkedSuggestions)}</>;
+};
+
 export function Typeahead({
   // className = "",
   // styles = {},
@@ -108,22 +137,25 @@ export function Typeahead({
 
       {displayList && filtered.length ? (
         <StyledList ref={listReference}>
-          {filtered.map((word, index) => (
+          {filtered.map((suggestion, index) => (
             <li key={uuidv4()}>
               <TransparentButton
                 isSelected={index === activeSuggestionIndex}
                 type="button"
                 onClick={() => {
-                  setSelection(index, word);
+                  setSelection(index, suggestion);
                 }}
                 onMouseEnter={() => {
-                  setSuggestionOnHover(word);
+                  setSuggestionOnHover(suggestion);
                 }}
                 onMouseLeave={() => {
                   setSuggestionOnHover("");
                 }}
               >
-                {word}
+                <MarkedSuggestions
+                  suggestion={suggestion}
+                  userInput={userInput}
+                />
               </TransparentButton>
             </li>
           ))}
@@ -136,5 +168,5 @@ export function Typeahead({
 // todo
 //  1. set selected
 //  2. set semi-selected on hover
-//  3. color the selection
-//  4. keys
+//  3. keys
+//  4. color the selection
