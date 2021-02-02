@@ -43,18 +43,18 @@ export function Typeahead({
   suggestions = defaultSuggestions,
 }: TypeaheadProps) {
   const [userInput, setText] = useState("");
-  const [activeSuggestion, setActiveSuggestion] = useState(0);
+  const [activeSuggestionIndex, setActiveSuggestion] = useState(0);
   const [displayList, toggleListVisibility] = useState(true);
   const [suggestionFromHovering, setSuggestionOnHover] = useState("");
   const listReference = useRef<HTMLUListElement>(null);
 
   const filtered = useFilteredSuggestions(suggestions, userInput);
 
-  const select = (position: number, word: string) => {
+  const setSelection = (position: number, word: string) => {
     setText(word);
     setActiveSuggestion(position);
-    setSuggestionOnHover("");
     toggleListVisibility(false);
+    setSuggestionOnHover("");
   };
 
   const onInputChange = (e: ReactEvent): void => {
@@ -66,22 +66,25 @@ export function Typeahead({
   const onInputKeyDown = (e: { keyCode: number }) => {
     const scrollActiveElementIntoView = (block: "end" | "start") => {
       const { current } = listReference;
-      if (current && current.children[activeSuggestion]) {
-        current.children[activeSuggestion].scrollIntoView({ block });
+      if (current && current.children[activeSuggestionIndex]) {
+        current.children[activeSuggestionIndex].scrollIntoView({ block });
       }
     };
     // 13 is enter
     if (e.keyCode === 13) {
-      setActiveSuggestion(activeSuggestion);
+      setSelection(activeSuggestionIndex, filtered[activeSuggestionIndex]);
     }
     // 38 is arrow up
-    else if (e.keyCode === 38 && activeSuggestion !== 0) {
-      setActiveSuggestion(activeSuggestion - 1);
+    else if (e.keyCode === 38 && activeSuggestionIndex !== 0) {
+      setActiveSuggestion(activeSuggestionIndex - 1);
       scrollActiveElementIntoView("end");
     }
     // 40 is arrow down
-    else if (e.keyCode === 40 && activeSuggestion + 1 !== filtered.length) {
-      setActiveSuggestion(activeSuggestion + 1);
+    else if (
+      e.keyCode === 40 &&
+      activeSuggestionIndex + 1 !== filtered.length
+    ) {
+      setActiveSuggestion(activeSuggestionIndex + 1);
       scrollActiveElementIntoView("start");
     }
   };
@@ -104,10 +107,10 @@ export function Typeahead({
           {filtered.map((word, index) => (
             <li key={uuidv4()}>
               <TransparentButton
-                isSelected={index === activeSuggestion}
+                isSelected={index === activeSuggestionIndex}
                 type="button"
                 onClick={() => {
-                  select(index, word);
+                  setSelection(index, word);
                 }}
                 onMouseEnter={() => {
                   setSuggestionOnHover(word);
