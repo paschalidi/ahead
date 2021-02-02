@@ -11,6 +11,8 @@ module.exports = {
     },
     ecmaVersion: 12,
     sourceType: "module",
+    project: "./tsconfig.json",
+    createDefaultProgram: true,
   },
   extends: [
     "plugin:import/recommended",
@@ -52,12 +54,4 @@ module.exports = {
     },
   },
   ignorePatterns: ["types/**/*"],
-  overrides: [
-    {
-      files: ["*.ts", "*.tsx"],
-      parserOptions: {
-        project: ["./tsconfig.json"],
-      },
-    },
-  ],
 };
