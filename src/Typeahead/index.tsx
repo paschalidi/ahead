@@ -37,6 +37,32 @@ export function Typeahead({
     setSuggestionOnHover("");
     toggleListVisibility(false);
   };
+
+  const onKeyDown = (e: { currentTarget: any; keyCode: number }) => {
+    debugger;
+    // 13 is enter
+    if (e.keyCode === 13) {
+      setSelected(selectedSuggestion);
+    }
+    // 38 is arrow up
+    else if (e.keyCode === 38) {
+      e.currentTarget.scrollIntoView();
+      if (selectedSuggestion === 0) {
+        return;
+      }
+      setSelected(selectedSuggestion - 1);
+    }
+    // 40 is arrow down
+    else if (e.keyCode === 40) {
+      e.currentTarget.scrollIntoView();
+      if (selectedSuggestion - 1 === filtered.length) {
+        return;
+      }
+
+      setSelected(selectedSuggestion + 1);
+    }
+  };
+
   return (
     <>
       <StyledInput
@@ -44,7 +70,7 @@ export function Typeahead({
           setText(event.target.value);
           toggleListVisibility(true);
         }}
-        value={userInput}
+        onKeyDown={onKeyDown}
         placeholder={placeholder}
         value={
           suggestionFromHovering === "" ? userInput : suggestionFromHovering
