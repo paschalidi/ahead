@@ -46,7 +46,7 @@ const MarkedSuggestions = ({
     const lastItem = index === userInputInPieces.length - 1;
     if (!lastItem) {
       return (
-        <span>
+        <span key={uuidv4()}>
           {item}
           <span className="coloredText">
             {originalMatch && originalMatch[index]}
@@ -54,11 +54,11 @@ const MarkedSuggestions = ({
         </span>
       );
     }
-    return <span>{item}</span>;
+    return <span key={uuidv4()}>{item}</span>;
   };
 
   return (
-    <div key={uuidv4()}>{userInputInPieces.map(deriveMarkedSuggestions)}</div>
+    <>{userInputInPieces.map(deriveMarkedSuggestions)}</>
   );
 };
 
@@ -119,7 +119,7 @@ export function Typeahead({
   };
 
   return (
-    <>
+    <div data-testid="typeahead">
       <StyledInput
         aria-label="typeahead-input"
         onChange={onInputChange}
@@ -158,6 +158,6 @@ export function Typeahead({
           ))}
         </StyledList>
       ) : null}
-    </>
+    </div>
   );
 }
