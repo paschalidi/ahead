@@ -12,6 +12,7 @@ export interface TypeaheadProps {
 export function Typeahead({
   // className = "",
   // styles = {},
+  placeholder = "Type...",
   disabled = false,
   suggestions = defaultSuggestions,
 }: TypeaheadProps) {
@@ -23,7 +24,7 @@ export function Typeahead({
   );
   return (
     <>
-      <input
+      <StyledInput
         onChange={(event): void => {
           setText(event.target.value);
         }}
@@ -31,9 +32,20 @@ export function Typeahead({
         type="text"
         disabled={disabled}
       />
-      {filtered.map((word) => (
-        <div>{word}</div>
-      ))}
+
+      {displayList && filtered.length ? (
+        <StyledList>
+          {filtered.map((word, index) => (
+            <li key={uuidv4()}>
+              <TransparentButton
+                isSelected={index === selectedSuggestion}
+              >
+                {word}
+              </TransparentButton>
+            </li>
+          ))}
+        </StyledList>
+      ) : null}
     </>
   );
 }
