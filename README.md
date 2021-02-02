@@ -19,17 +19,16 @@ contain the matched characters as suggestions
 * Selecting in both cases is filling in the input
 
 * The input is a valid HTML text input element to be used in a standard HTML form setup
+
 * The is able to proceed without choosing one of the suggestions (non-exclusive)
+
+* Hovering over the suggestions pre-preemptively fills in the input box. Note that it does not commit the change permanently until a suggestion is clicked or pressed enter-upon.
 
 ### Styling
 
 The widget match suggestions appears below the text input as a floating container.
 The floating suggestion area becomes scrollable when there are many suggestions.
 The matched portion of the suggestion is highlighted in some way
-
-### Bonus points:
-
-* Hovering over the suggestions pre-preemptively fills in the input box, but does not commit the change permanently until a suggestion is clicked or pressed enter-upon.
 
 —
 
@@ -67,3 +66,11 @@ yarn
 yarn start
 ```
 4. Open your browser at http://localhost:6006
+
+
+### To run the tests 
+
+after you installed the dependencies as we explain above, run
+```
+yarn test
+```
