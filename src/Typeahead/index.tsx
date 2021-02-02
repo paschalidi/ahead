@@ -57,10 +57,14 @@ export function Typeahead({
     setSuggestionOnHover("");
   };
 
-  const onInputChange = (e: ReactEvent): void => {
-    setText(e.currentTarget.value);
+  const resetSelection = () => {
     setActiveSuggestion(0);
     toggleListVisibility(true);
+  };
+
+  const onInputChange = (e: ReactEvent): void => {
+    setText(e.currentTarget.value);
+    resetSelection();
   };
 
   const onInputKeyDown = (e: { keyCode: number }) => {
