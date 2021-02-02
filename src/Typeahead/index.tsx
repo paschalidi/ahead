@@ -18,10 +18,8 @@ interface TypeaheadProps {
 const useFilteredSuggestions = (
   suggestions: Suggestions,
   userInput: string
-): Suggestions => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  let l;
-  return useMemo(
+): Suggestions =>
+  useMemo(
     () =>
       suggestions
         // happens that sometimes user can give array with duplicates.
@@ -35,7 +33,6 @@ const useFilteredSuggestions = (
         ),
     [suggestions, userInput]
   );
-};
 
 const MarkedSuggestions = ({
   suggestion,
@@ -172,3 +169,11 @@ export function Typeahead({
 //  2. set semi-selected on hover
 //  3. keys
 //  4. color the selection
+
+// todo testing scenarios
+//  type in and select with click, make sure you can erase after
+//  type in and select with enter, make sure you can erase after
+//  type in and make sure matching is case insensitive
+//  type in and go till the end of the list. then on the top
+//  type in then move with key then type again. make sure selection reseted
+//  type in and then hover over make sure input has the text you hovered
