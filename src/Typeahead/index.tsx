@@ -14,6 +14,27 @@ interface TypeaheadProps {
   // className?: string;
 }
 
+const useFilteredSuggestions = (
+  suggestions: Suggestions,
+  userInput: string
+): Suggestions => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  let l;
+  return useMemo(
+    () =>
+      suggestions
+        // happens that sometimes user can give array with duplicates.
+        // we want to avoid having duplicated on out suggestions.
+        // https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
+        .filter((value, index, self) => self.indexOf(value) === index)
+        .filter(
+          (word) =>
+            userInput && word.toLowerCase().includes(userInput.toLowerCase())
+        ),
+    [suggestions, userInput]
+  );
+};
+
 export function Typeahead({
   // className = "",
   // styles = {},
@@ -27,10 +48,7 @@ export function Typeahead({
   const [suggestionFromHovering, setSuggestionOnHover] = useState("");
   const listReference = useRef<HTMLUListElement>(null);
 
-  const filtered: Array<string> = useMemo(
-    () => suggestions.filter((word) => userInput && word.includes(userInput)),
-    [suggestions, userInput]
-  );
+  const filtered = useFilteredSuggestions(suggestions, userInput);
 
   const select = (position: number, word: string) => {
     setText(word);
