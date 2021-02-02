@@ -57,9 +57,7 @@ const MarkedSuggestions = ({
     return <span key={uuidv4()}>{item}</span>;
   };
 
-  return (
-    <>{userInputInPieces.map(deriveMarkedSuggestions)}</>
-  );
+  return <>{userInputInPieces.map(deriveMarkedSuggestions)}</>;
 };
 
 export function Typeahead({
@@ -137,6 +135,7 @@ export function Typeahead({
           {filtered.map((suggestion, index) => (
             <li key={uuidv4()}>
               <TransparentButton
+                aria-label={suggestion}
                 isSelected={index === activeSuggestionIndex}
                 type="button"
                 onClick={() => {
